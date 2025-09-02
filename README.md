@@ -1,2 +1,1 @@
-# InfoMate
-In this version of the chatbot, I've added named entity recognition (NER) integration using NLTK. The extract_entities function identifies named entities in the user's input, and if a person's name is detected, the chatbot responds by asking to know more about that person.
+This version of the chatbot integrates Named Entity Recognition (NER) using NLTK. The extract_entities function parses user input to detect named entities, and when a PERSON entity is identified, the chatbot generates a context-aware response by prompting the user to elaborate on that individual.
